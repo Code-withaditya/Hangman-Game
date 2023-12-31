@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game||codewithaditya</title>
+    <!---------Link with Css--------->
+    <link rel="stylesheet" href="style/style.css">
+    <!---------Favicon Link-->
+    <link rel="icon" type="img/png" href="assets/icon.png">
+</head>
+
+<body>
+    <!------Start Header Seaction------->
+    <div class="main">
+        <div class="game">
+            <div class="left">
+                <img class="img" src="assets/img1.jpeg">
+                <h1> HANGMAN GAME </h1>
+            </div>
+            <div class="right">
+                <ul class="word-display"></ul>
+                <h4>
+                    Hint :- Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Laborum, ipsum!
+                </h4>
+                <p>
+                    Incorrect guessess :-
+                    <span class="chance" style="color: rgb(181, 10, 44);">0/6</span>
+                </p>
+                <div class="keyboard"></div>
+            </div>
+        </div>
+        <div class="GameOver">
+            <img class="gameoverImg" src="assets/lost.gif" />
+            <h3>Game Over!</h3>
+            <h6>
+                The Correct Word Was:<span class="answer" style="color:rgb(242, 4, 52);">Jazz</span>
+            </h6>
+            <button onclick="location.reload()">Play Again</button>
+        </div>
+    </div>
+
+</body>
+<!-------Link with Java Script--------->
+<script src="script/word.js" defer></script>
+<script src="script/script.js" defer></script>
+
+</html>
