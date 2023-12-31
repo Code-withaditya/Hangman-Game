@@ -89,17 +89,17 @@ const loadQuestion = () => {
             const letterElem = document.querySelectorAll(".letter");
 
             if (count >= 1 && count < 2) {
-                img.src = "assets/img2.jpeg";
+                img.src = "/assets/img2.jpeg";
             } else if (count >= 2 && count < 3) {
-                img.src = "assets/img3.jpeg";
+                img.src = "/assets/img3.jpeg";
             } else if (count >= 3 && count < 4) {
-                img.src = "assets/img4.jpeg";
+                img.src = "/assets/img4.jpeg";
             } else if (count >= 4 && count < 5) {
-                img.src = "assets/img5.jpeg";
+                img.src = "/assets/img5.jpeg";
             } else if (count >= 5 && count < 6) {
-                img.src = "assets/img6.jpeg";
+                img.src = "/assets/img6.jpeg";
             } else if (count >= 6 && count < 7) {
-                img.src = "assets/img7.jpeg";
+                img.src = "/assets/img7.jpeg";
                 setTimeout(() => {
                     gameOver(true);
                 }, 200)
